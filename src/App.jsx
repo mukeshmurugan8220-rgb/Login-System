@@ -31,7 +31,7 @@ function App() {
     }
   });
   const [isLoading, setIsLoading] = useState(false);
-  const API_URL = "http://localhost:5000/api/auth";
+  const API_URL = "https://login-system-xl4w.onrender.com/api/auth";
 
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
